@@ -1,0 +1,48 @@
+:root {
+    --red: #eb5020;
+    --orange: #ffa401;
+    --green: #05aa42;
+    --blue: #01aefd;
+    --black: #1a1c28;
+} 
+
+body {
+    background-color: var(--black);
+}
+
+.grid-container {
+    margin-top: 120px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 120px 120px;
+    grid-gap: 10px;
+}
+
+.grid-item-1 {
+    background-color: var(--red);
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.grid-item-2 {
+    background-color: var(--orange);
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid-item-3 {
+    background-color: var(--green);
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.grid-item-4 {
+    background-color: var(--blue);
+    grid-column: span 3;
+}
+
+.grid-item-5 {
+    background-color: var(--blue);
+    grid-column: span 3;
+}
