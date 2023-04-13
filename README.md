@@ -4,6 +4,10 @@
 This repository is week4 task given by zuri
 <br />
 
+<h2>Hosted Page Link</h2>
+
+- [Grid Assignment](https://week-4-task-greater-css-cont.esther-annann.repl.co/) 
+- <b>CSS</b>
 
 <h2>Languages and Utilities Used</h2>
 
